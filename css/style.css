@@ -89,3 +89,21 @@ main{
     background-color: beige;
     color: black;
 }
+
+/* footer */
+.site-footer {
+    background-color: #f8f8e7; 
+    color: #333; 
+    padding: 20px 0;
+}
+
+.site-footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

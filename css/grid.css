@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+  
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+  
+.text,
+.image {
+  padding: 20px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+  
